@@ -1,8 +1,8 @@
 {
   "name": "quasar-boilerplate",
   "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "description": "황상은의 웹 개발 포트폴리오입니다.",
+  "productName": "황상은 포트폴리오",
   "author": "sanggusseu <sanggusseu@gmail.com>",
   "private": true,
   "scripts": {
