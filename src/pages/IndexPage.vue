@@ -1,11 +1,13 @@
 <template>
-  <q-page class="flex flex-center">
-    <h1>홈</h1>
+  <q-page>
+    <TheFooter></TheFooter>
   </q-page>
 </template>
 
 <script setup>
+import TheFooter from 'src/layouts/TheFooter.vue';
+
 defineOptions({
-  name: 'IndexPage'
+  name: 'IndexPage',
 });
 </script>
