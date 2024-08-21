@@ -20,7 +20,7 @@ import ProjectCard from 'src/components/projects/ProjectCard.vue';
 
 const projectList = [
   {
-    src: 'https://sanggusseu.github.io/images/projects/make-quote.jpg',
+    src: 'https://sanggusseu.github.io/make-quote/images/og-image.jpg',
     title: '명언 제조기',
     text: '어떤 문장이든 명언인 것처럼 보이게 만들어줍니다.',
     url: 'https://sanggusseu.github.io/make-quote/',
