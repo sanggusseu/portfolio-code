@@ -72,7 +72,7 @@ const projectList = [
     title: '멋진 헛간',
     caption: '유용한 사이트 모음',
     icon: 'star',
-    link: 'https://sanggusseu.github.io/make-quote/',
+    link: 'https://sanggusseu.github.io/bookmark/',
   },
   {
     title: 'Boggle',
