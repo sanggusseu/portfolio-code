@@ -2,7 +2,7 @@
   <div class="user-profile q-mb-lg">
     <div class="user-info flex column flex-center">
       <q-avatar class="user-avatar q-mb-sm" size="9.6rem">
-        <img src="/src/assets/images/profile.jpg" />
+        <img :src="profileImage" />
       </q-avatar>
       <div class="text-group flex column flex-center">
         <strong class="user-name text-h4 text-weight-bold q-mb-xs q-mb-md-md">
@@ -38,6 +38,7 @@
 </template>
 
 <script setup>
+import profileImage from '../assets/images/profile.jpg';
 const copyClipboard = (text, message) => {
   navigator.clipboard.writeText(text).then(() => alert(message));
 };
