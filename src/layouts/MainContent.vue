@@ -26,8 +26,7 @@
       </q-tab-panel>
 
       <q-tab-panel name="skills">
-        <div class="text-h6">Skills</div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <SkillTree></SkillTree>
       </q-tab-panel>
 
       <q-tab-panel name="etc">
@@ -40,6 +39,7 @@
 
 <script setup>
 import { ref } from 'vue';
+import SkillTree from './SkillTree.vue';
 
 const tab = ref('projects');
 </script>
