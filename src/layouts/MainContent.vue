@@ -12,7 +12,7 @@
         <q-tab name="about" label="About" class="text-capitalize" />
         <q-tab name="projects" label="Projects" class="text-capitalize" />
         <q-tab name="skills" label="Skills" class="text-capitalize" />
-        <q-tab name="etc" label="Etc" class="text-capitalize" />
+        <q-tab name="etc" label="Etc" class="text-capitalize" disable />
       </q-tabs>
     </div>
 
